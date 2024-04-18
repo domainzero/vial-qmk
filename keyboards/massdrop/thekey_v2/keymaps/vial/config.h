@@ -2,11 +2,9 @@
 
 #pragma once
 
-#define VIAL_KEYBOARD_UID {0x5E, 0x62, 0xD5, 0x7B, 0x88, 0xD7, 0x45, 0xA5}
+#define VIAL_KEYBOARD_UID {0x89, 0x99, 0x70, 0xD2, 0x66, 0x8B, 0x6F, 0xEC}
 
-#define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
-#define VIAL_UNLOCK_COMBO_COLS { 1, 2 }
-
-/* Reduce keymap mem usage by capping to 6 */
-#define LAYER_STATE_8BIT
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_EFFECT_KNIGHT_LENGTH 2
+#define RGBLIGHT_LED_COUNT 5
+#define RGBLIGHT_LED_MAP { 4, 0, 1, 2, 3 }
